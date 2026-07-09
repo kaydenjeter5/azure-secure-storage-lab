@@ -81,23 +81,12 @@ Relevant activity includes:
 
 Microsoft Defender for Cloud was reviewed for storage-related recommendations. Paid plan prompts were not enabled unless required for the lab and understood first.
 
-## Screenshots To Add
 
-Add screenshots to the `screenshots/` folder showing:
 
-- Storage account overview
-- Storage account configuration settings
-- Private container access level
-- RBAC role assignments
-- Log Analytics workspace
-- Diagnostic setting configuration
-- Example access test result
-- Example log query result
-- Defender for Cloud recommendation, if available
 
 ## Lessons Learned
 
-TODO: Add 3-5 bullets in your own words after completing the lab.
+I learned how to create storage accounts on Microsoft Azure. Within these storage accounts i then assigned roles for who can view these accounts and verified what permissions they had. I also created a log analytic workspace that allowed me ot view all the actions being performed in the storage blob.
 
 Examples:
 
@@ -105,8 +94,4 @@ Examples:
 - Private containers prevent anonymous blob access.
 - RBAC allows more controlled access than sharing storage account keys.
 - Diagnostic logs provide evidence for monitoring and investigation.
-
-## Cleanup Notes
-
-To control cost, remove unused test files and review Log Analytics retention. Keep the resource group only if continuing with later Azure labs.
 
